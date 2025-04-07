@@ -131,3 +131,13 @@ switch(time){
 
 //ternário
 
+let valor = 100;
+
+let resultado = valor == 100 ?"Certo" :"Errado"
+console.log(resultado)
+
+//ternário encardeado
+let produto = "Notebook";
+const desconto =true
+const preco = produto = "Notebook" ? desconto ? 100:200 : produto === "mouse" ? 30:100
+console.log(preco)
