@@ -85,59 +85,67 @@
 
 //Estrutura Condicional
 
-//if
-let logado="fiap"
+// //if
+// let logado="fiap"
 
-if(logado=="fiap"){
-    console.log("é verdadeiro")
-}
+// if(logado=="fiap"){
+//     console.log("é verdadeiro")
+// }
 
-//if/else
+// //if/else
 
-let usuário="teste"
-if(usuário=="teste"){
-    console.log("usuário correto")
-}else{
-    console.log("usuário incorreto")    
-}
+// let usuário="teste"
+// if(usuário=="teste"){
+//     console.log("usuário correto")
+// }else{
+//     console.log("usuário incorreto")    
+// }
 
-let idade =15
+// let idade =15
 
-if(idade < 15){
-    console.log("Menor de Idade")
-}else if(idade > 15 && idade < 18){
-    console.log("Não é maior de idade, mas pode entrar")
-}else{
-    console.log("Pode entrar, é maior de idade")
-}
+// if(idade < 15){
+//     console.log("Menor de Idade")
+// }else if(idade > 15 && idade < 18){
+//     console.log("Não é maior de idade, mas pode entrar")
+// }else{
+//     console.log("Pode entrar, é maior de idade")
+// }
 
-//switch
+// //switch
 
-let time = "Corithians"
+// let time = "Corithians"
 
-switch(time){
-    case "Corithians":
-        console.log("Pior time")
-        break;
-    case "Sao Paulo":
-        console.log("3 mundiais")
-        break;
-    case "Palmeiras":
-        console.log("Não tem Munidal")
-        break;
-    default:
-        console.log("Nenhuma das Opções")
-}
+// switch(time){
+//     case "Corithians":
+//         console.log("Pior time")
+//         break;
+//     case "Sao Paulo":
+//         console.log("3 mundiais")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem Munidal")
+//         break;
+//     default:
+//         console.log("Nenhuma das Opções")
+// }
 
 //ternário
 
-let valor = 100;
+// let valor = 100;
 
-let resultado = valor == 100 ?"Certo" :"Errado"
-console.log(resultado)
+// let resultado = valor == 100 ?"Certo" :"Errado"
+// console.log(resultado)
 
 //ternário encardeado
-let produto = "Notebook";
-const desconto =true
-const preco = produto = "Notebook" ? desconto ? 100:200 : produto === "mouse" ? 30:100
-console.log(preco)
+// let produto = "Notebook";
+// const desconto =true
+// const preco = produto = "Notebook" ? desconto ? 100:200 : produto === "mouse" ? 30:100
+// console.log(preco)
+
+//Estrutura de Repetição
+
+//For
+
+for(let i = 0; i<=10; i++){
+    console.log("O valor de I é:" ,i)
+}
